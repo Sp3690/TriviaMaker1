@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #252b2d;
+    color: white;
+}
+.header_main{
+    display: flex;
+    justify-content: space-around;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+.logo{
+    width: 250px;
+}
+.header_right{
+    display: flex;
+    margin-right: 60px;
+    padding: 40px;
+}
+.header_right ul {
+    display: flex;
+    align-items: center;
+}
+.header_right ul li{
+   list-style: none;
+   margin: 0 15px;
+   font-size: 15px;
+   font-weight: 400;
+}
+.main{
+    background-image: url(../images/2\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.main .spring {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main .sale {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.button_new {
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    padding: 20px 40px;
+    border: 2px solid white;
+    background: #e375f4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.free {
+    margin-top: 15px;
+}
+.button-secondary {
+    background: #7f8fa6;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+/* Brand Logo */
+.br_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-color: white;
+}
+.br_logo img{
+    width: 254px;
+    height: 254px;
+    margin: 20px;
+}
+/* learn Section */
+.learn{
+    background-color: #7f2cbf;
+    display: flex;
+}
+.learn_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.using {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+.btn {
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.btn-blue { background: #6ec1e4; box-shadow: 5px 5px 0 #5aaed1;}
+.btn-pink { background: #e375f4; box-shadow: 5px 5px 0 #b46dc4;}
+.btn-green { background: #61ce70;box-shadow: 5px 5px 0 #4e9f58;  }
+.btn-gold { background: #dba867;box-shadow: 5px 5px 0 #b58549; }
+
+.people{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+.start {
+    margin-top: 20px;
+    text-align: center;
+}
+.start button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right-section video {
+    width: 655px;
+    height: 368px;
+    border-radius: 10px;
+    border: none;
+}
+/* Game style */
+.game{
+    background-color: transparent;
+     background-image: linear-gradient(180deg, #007277 0%, #73ccd0 100%);
+     color: white; 
+ }
+ 
+ .to{
+     font-size: 30px;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 25px;
+ }
+ .choice{
+     font-size: 25px;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 20px;
+ }
+ .game_style{
+     height: 401px;
+     width: 1140px;
+     margin-left: 110px;
+ }
+ .game_txt{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     line-height: 1;
+    
+ }
+ .now_h{
+     font-size: 30px;
+     font-weight: 400;
+ }
+ .mode_h{
+     font-size: 46px;
+     font-weight: 400;
+ }
+ .get_h{
+     font-size: 20px;
+     font-weight: 400;
+ 
+ }
+ .video-container {
+     margin-top: 50px; 
+     display: flex;
+     justify-content: center;
+ 
+ }
+ iframe {
+     width: 80%;
+     max-width: 800px;
+     height: 450px;
+     border: none;;
+ }
+ .learn_more .more{
+     background-color: transparent;
+     margin-top: 15px;
+     padding: 15px 30px;
+     text-decoration: none;
+     border: 2px solid white;
+     font-size: 20px;
+     color: white;
+     font-weight: bold;
+     border-radius: 50px; 
+ }
+ .learn_more{
+     text-align: center;
+     padding-bottom: 20px;
+ }
